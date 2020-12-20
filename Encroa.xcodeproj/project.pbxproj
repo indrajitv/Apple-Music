@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDF3301A258F435B008F4914 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF33019258F435B008F4914 /* AppDelegate.swift */; };
+		FDF3301C258F435B008F4914 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF3301B258F435B008F4914 /* SceneDelegate.swift */; };
+		FDF3301E258F435B008F4914 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF3301D258F435B008F4914 /* ViewController.swift */; };
+		FDF33021258F435B008F4914 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDF3301F258F435B008F4914 /* Main.storyboard */; };
+		FDF33024258F435B008F4914 /* Encroa.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FDF33022258F435B008F4914 /* Encroa.xcdatamodeld */; };
+		FDF33026258F435C008F4914 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDF33025258F435C008F4914 /* Assets.xcassets */; };
+		FDF33029258F435C008F4914 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDF33027258F435C008F4914 /* LaunchScreen.storyboard */; };
+		FDF33034258F435C008F4914 /* EncroaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF33033258F435C008F4914 /* EncroaTests.swift */; };
+		FDF3303F258F435C008F4914 /* EncroaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF3303E258F435C008F4914 /* EncroaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDF33030258F435C008F4914 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDF3300E258F435A008F4914 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDF33015258F435A008F4914;
+			remoteInfo = Encroa;
+		};
+		FDF3303B258F435C008F4914 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDF3300E258F435A008F4914 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDF33015258F435A008F4914;
+			remoteInfo = Encroa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDF33016258F435A008F4914 /* Encroa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Encroa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDF33019258F435B008F4914 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FDF3301B258F435B008F4914 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FDF3301D258F435B008F4914 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FDF33020258F435B008F4914 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDF33023258F435B008F4914 /* Encroa.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Encroa.xcdatamodel; sourceTree = "<group>"; };
+		FDF33025258F435C008F4914 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDF33028258F435C008F4914 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDF3302A258F435C008F4914 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDF3302F258F435C008F4914 /* EncroaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EncroaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDF33033258F435C008F4914 /* EncroaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncroaTests.swift; sourceTree = "<group>"; };
+		FDF33035258F435C008F4914 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDF3303A258F435C008F4914 /* EncroaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EncroaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDF3303E258F435C008F4914 /* EncroaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncroaUITests.swift; sourceTree = "<group>"; };
+		FDF33040258F435C008F4914 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDF33013258F435A008F4914 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDF3302C258F435C008F4914 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDF33037258F435C008F4914 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDF3300D258F435A008F4914 = {
+			isa = PBXGroup;
+			children = (
+				FDF33018258F435A008F4914 /* Encroa */,
+				FDF33032258F435C008F4914 /* EncroaTests */,
+				FDF3303D258F435C008F4914 /* EncroaUITests */,
+				FDF33017258F435A008F4914 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDF33017258F435A008F4914 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDF33016258F435A008F4914 /* Encroa.app */,
+				FDF3302F258F435C008F4914 /* EncroaTests.xctest */,
+				FDF3303A258F435C008F4914 /* EncroaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDF33018258F435A008F4914 /* Encroa */ = {
+			isa = PBXGroup;
+			children = (
+				FDF33019258F435B008F4914 /* AppDelegate.swift */,
+				FDF3301B258F435B008F4914 /* SceneDelegate.swift */,
+				FDF3301D258F435B008F4914 /* ViewController.swift */,
+				FDF3301F258F435B008F4914 /* Main.storyboard */,
+				FDF33025258F435C008F4914 /* Assets.xcassets */,
+				FDF33027258F435C008F4914 /* LaunchScreen.storyboard */,
+				FDF3302A258F435C008F4914 /* Info.plist */,
+				FDF33022258F435B008F4914 /* Encroa.xcdatamodeld */,
+			);
+			path = Encroa;
+			sourceTree = "<group>";
+		};
+		FDF33032258F435C008F4914 /* EncroaTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDF33033258F435C008F4914 /* EncroaTests.swift */,
+				FDF33035258F435C008F4914 /* Info.plist */,
+			);
+			path = EncroaTests;
+			sourceTree = "<group>";
+		};
+		FDF3303D258F435C008F4914 /* EncroaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FDF3303E258F435C008F4914 /* EncroaUITests.swift */,
+				FDF33040258F435C008F4914 /* Info.plist */,
+			);
+			path = EncroaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDF33015258F435A008F4914 /* Encroa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDF33043258F435C008F4914 /* Build configuration list for PBXNativeTarget "Encroa" */;
+			buildPhases = (
+				FDF33012258F435A008F4914 /* Sources */,
+				FDF33013258F435A008F4914 /* Frameworks */,
+				FDF33014258F435A008F4914 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Encroa;
+			productName = Encroa;
+			productReference = FDF33016258F435A008F4914 /* Encroa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDF3302E258F435C008F4914 /* EncroaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDF33046258F435C008F4914 /* Build configuration list for PBXNativeTarget "EncroaTests" */;
+			buildPhases = (
+				FDF3302B258F435C008F4914 /* Sources */,
+				FDF3302C258F435C008F4914 /* Frameworks */,
+				FDF3302D258F435C008F4914 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDF33031258F435C008F4914 /* PBXTargetDependency */,
+			);
+			name = EncroaTests;
+			productName = EncroaTests;
+			productReference = FDF3302F258F435C008F4914 /* EncroaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FDF33039258F435C008F4914 /* EncroaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDF33049258F435C008F4914 /* Build configuration list for PBXNativeTarget "EncroaUITests" */;
+			buildPhases = (
+				FDF33036258F435C008F4914 /* Sources */,
+				FDF33037258F435C008F4914 /* Frameworks */,
+				FDF33038258F435C008F4914 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDF3303C258F435C008F4914 /* PBXTargetDependency */,
+			);
+			name = EncroaUITests;
+			productName = EncroaUITests;
+			productReference = FDF3303A258F435C008F4914 /* EncroaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDF3300E258F435A008F4914 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					FDF33015258F435A008F4914 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					FDF3302E258F435C008F4914 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = FDF33015258F435A008F4914;
+					};
+					FDF33039258F435C008F4914 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = FDF33015258F435A008F4914;
+					};
+				};
+			};
+			buildConfigurationList = FDF33011258F435A008F4914 /* Build configuration list for PBXProject "Encroa" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDF3300D258F435A008F4914;
+			productRefGroup = FDF33017258F435A008F4914 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDF33015258F435A008F4914 /* Encroa */,
+				FDF3302E258F435C008F4914 /* EncroaTests */,
+				FDF33039258F435C008F4914 /* EncroaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDF33014258F435A008F4914 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF33029258F435C008F4914 /* LaunchScreen.storyboard in Resources */,
+				FDF33026258F435C008F4914 /* Assets.xcassets in Resources */,
+				FDF33021258F435B008F4914 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDF3302D258F435C008F4914 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDF33038258F435C008F4914 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDF33012258F435A008F4914 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF3301E258F435B008F4914 /* ViewController.swift in Sources */,
+				FDF3301A258F435B008F4914 /* AppDelegate.swift in Sources */,
+				FDF3301C258F435B008F4914 /* SceneDelegate.swift in Sources */,
+				FDF33024258F435B008F4914 /* Encroa.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDF3302B258F435C008F4914 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF33034258F435C008F4914 /* EncroaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDF33036258F435C008F4914 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF3303F258F435C008F4914 /* EncroaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDF33031258F435C008F4914 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDF33015258F435A008F4914 /* Encroa */;
+			targetProxy = FDF33030258F435C008F4914 /* PBXContainerItemProxy */;
+		};
+		FDF3303C258F435C008F4914 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDF33015258F435A008F4914 /* Encroa */;
+			targetProxy = FDF3303B258F435C008F4914 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDF3301F258F435B008F4914 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDF33020258F435B008F4914 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDF33027258F435C008F4914 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDF33028258F435C008F4914 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDF33041258F435C008F4914 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FDF33042258F435C008F4914 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDF33044258F435C008F4914 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X3AF6NY82Z;
+				INFOPLIST_FILE = Encroa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Indrajit.Encroa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDF33045258F435C008F4914 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X3AF6NY82Z;
+				INFOPLIST_FILE = Encroa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Indrajit.Encroa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FDF33047258F435C008F4914 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X3AF6NY82Z;
+				INFOPLIST_FILE = EncroaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Indrajit.EncroaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Encroa.app/Encroa";
+			};
+			name = Debug;
+		};
+		FDF33048258F435C008F4914 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X3AF6NY82Z;
+				INFOPLIST_FILE = EncroaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Indrajit.EncroaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Encroa.app/Encroa";
+			};
+			name = Release;
+		};
+		FDF3304A258F435C008F4914 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X3AF6NY82Z;
+				INFOPLIST_FILE = EncroaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Indrajit.EncroaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Encroa;
+			};
+			name = Debug;
+		};
+		FDF3304B258F435C008F4914 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X3AF6NY82Z;
+				INFOPLIST_FILE = EncroaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Indrajit.EncroaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Encroa;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDF33011258F435A008F4914 /* Build configuration list for PBXProject "Encroa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDF33041258F435C008F4914 /* Debug */,
+				FDF33042258F435C008F4914 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDF33043258F435C008F4914 /* Build configuration list for PBXNativeTarget "Encroa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDF33044258F435C008F4914 /* Debug */,
+				FDF33045258F435C008F4914 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDF33046258F435C008F4914 /* Build configuration list for PBXNativeTarget "EncroaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDF33047258F435C008F4914 /* Debug */,
+				FDF33048258F435C008F4914 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDF33049258F435C008F4914 /* Build configuration list for PBXNativeTarget "EncroaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDF3304A258F435C008F4914 /* Debug */,
+				FDF3304B258F435C008F4914 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FDF33022258F435B008F4914 /* Encroa.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FDF33023258F435B008F4914 /* Encroa.xcdatamodel */,
+			);
+			currentVersion = FDF33023258F435B008F4914 /* Encroa.xcdatamodel */;
+			path = Encroa.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FDF3300E258F435A008F4914 /* Project object */;
+}
