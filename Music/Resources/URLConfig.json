@@ -1,0 +1,8 @@
+{
+    "infrastructure":{
+        "endpoints":{
+            "production":"http://ax.itunes.apple.com/WebObjects/MZStoreServices.woa/ws/RSS/",
+            "development":"http://localhost:9999/swapi.dev/"
+        }
+    }
+}
